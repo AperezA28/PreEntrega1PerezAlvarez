@@ -36,3 +36,10 @@
     transform: rotate(360deg);
   }
 }
+
+/* Estilos icono */
+
+.ion-icon {
+  color: aliceblue;
+  font-size:  35 px;
+}
