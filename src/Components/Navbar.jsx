@@ -1,6 +1,8 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
 import BurguerButton from './BurguerButton'
+import CartWidget from './CartWidget'
+import Title from './Title'
 
 function Navbar() {
 
@@ -17,7 +19,7 @@ function Navbar() {
           <a onClick={handleClick} href="#h">Home</a>
           <a onClick={handleClick} href="#h">Tienda</a>
           <a onClick={handleClick} href="#h">Acerca de Nosotros</a>
-          <a onClick={handleClick} href="#h"><ion-icon name="cart-outline"></ion-icon></a>
+          <a onClick={handleClick} href="#h"> <CartWidget/> </a>
           
         </div>
         <div className='burguer'>
